@@ -1,5 +1,7 @@
-class Sense
-	def initialize
-		
-	end
+module Jido
+  class Sense
+    def initialize
+
+    end
+  end
 end
