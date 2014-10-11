@@ -5,7 +5,7 @@ module Jido
     STATUS_CONNECTED     = 0
     STATUS_NOT_CONNECTED = 1
 
-    attr_accessor :status
+    attr_accessor :status, :fragments, :objects
 
     def initialize adapter, attrs
       @status = STATUS_NOT_CONNECTED;
